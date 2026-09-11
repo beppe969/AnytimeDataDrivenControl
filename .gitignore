@@ -1,0 +1,31 @@
+# Generated workspaces and release archives
+/runs/
+/dist/
+/build/
+# Environment and local caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.mplconfig/
+.numba_cache/
+.pytest_cache/
+# Local secrets and platform artifacts
+.env
+.env.*
+!.env.example
+.DS_Store
+__MACOSX/
+._*
+# Accidental outputs from direct legacy-script execution
+/data/
+/figures/
+/tables/
+/checks/
+
+# Required integrity files are always part of the public repository.
+!/SOURCE_MANIFEST.sha256
+!/SHA256SUMS
+!/SOURCE_PROVENANCE.json

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: >-
+  This package generates numerical results for the paper
+  A Universal Iterated-Logarithm Anytime Law for Data-Driven Control Design, by G. Calafiore.
+  Please cite that paper when using the results.
+title: "Anytime Control: Reproducibility Package"
+type: software
+version: 1.0.1
+repository-code: "https://github.com/beppe969/AnytimeDataDrivenControl"
+authors:
+  - family-names: Calafiore
+    given-names: G.
+abstract: >-
+  This package generates the numerical results for the paper
+  A Universal Iterated-Logarithm Anytime Law for Data-Driven Control Design, by G. Calafiore.
+  It includes scientific code, reference outputs and numerical verification tools.
+keywords:
+  - data-driven control
+  - anytime risk certification
+  - scenario optimization
+  - iterated-logarithm law
+  - model predictive control
+preferred-citation:
+  type: unpublished
+  title: "A Universal Iterated-Logarithm Anytime Law for Data-Driven Control Design"
+  authors:
+    - family-names: Calafiore
+      given-names: G.
+  year: 2026

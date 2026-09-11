@@ -1,0 +1,23 @@
+{
+  "scalar": {
+    "brute_force_comparisons": 5934,
+    "maximum_log_envelope_error": 2.842170943040401e-14,
+    "root_checks": 60,
+    "beta_tail_checks": 840,
+    "envelope_monotonicity": true,
+    "epoch_checks": true
+  },
+  "geometry": {
+    "observations": 9,
+    "retained_omitted_pairs_per_scheme": 19683,
+    "hull_projectivity": true,
+    "box_projectivity": true
+  },
+  "lmi": {
+    "observations": 8,
+    "retained_omitted_pairs": 6561,
+    "projectivity": true,
+    "maximum_reconstruction_error": 4.440892098500626e-16,
+    "maximum_support_size": 2
+  }
+}

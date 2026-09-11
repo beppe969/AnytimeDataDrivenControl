@@ -1,0 +1,384 @@
+{
+  "all_numerical_records_match": true,
+  "all_paper_figures_present": true,
+  "all_paper_pngs_pixel_identical": true,
+  "figure_policy": "PNG pixel identity is reported separately; font/rendering differences do not fail numerical equivalence. PDF presence is checked; PDF bytes may contain creation metadata.",
+  "ignored_json_keys": [
+    "elapsed_seconds",
+    "software"
+  ],
+  "records": [
+    {
+      "file": "data/archive_audit_replicates.csv",
+      "passed": true,
+      "rows": 20000,
+      "maximum_absolute_numeric_difference": 0.0,
+      "identical_bytes": true,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "issues": []
+    },
+    {
+      "file": "data/complexity_sweep.csv",
+      "passed": true,
+      "rows": 13,
+      "maximum_absolute_numeric_difference": 0.0,
+      "identical_bytes": true,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "issues": []
+    },
+    {
+      "file": "data/disturbance_path.csv",
+      "passed": true,
+      "rows": 8000,
+      "maximum_absolute_numeric_difference": 0.0,
+      "identical_bytes": true,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "issues": []
+    },
+    {
+      "file": "data/disturbance_samples.npz",
+      "arrays": [
+        "W",
+        "G",
+        "Box",
+        "Hull",
+        "Hull_per_time"
+      ],
+      "passed": true,
+      "issues": []
+    },
+    {
+      "file": "data/final_fixed_time_comparison.csv",
+      "passed": true,
+      "rows": 5,
+      "maximum_absolute_numeric_difference": 0.0,
+      "identical_bytes": true,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "issues": []
+    },
+    {
+      "file": "data/final_monitoring_results.json",
+      "passed": true,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "issues": []
+    },
+    {
+      "file": "data/final_selection_results.json",
+      "passed": true,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "issues": []
+    },
+    {
+      "file": "data/fixed_time_comparison.csv",
+      "passed": true,
+      "rows": 12,
+      "maximum_absolute_numeric_difference": 0.0,
+      "identical_bytes": true,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "issues": []
+    },
+    {
+      "file": "data/horizon_baseline_results.json",
+      "passed": true,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "issues": []
+    },
+    {
+      "file": "data/horizon_crossover_sweep.csv",
+      "passed": true,
+      "rows": 724,
+      "maximum_absolute_numeric_difference": 0.0,
+      "identical_bytes": true,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "issues": []
+    },
+    {
+      "file": "data/horizon_disturbance_path.csv",
+      "passed": true,
+      "rows": 8000,
+      "maximum_absolute_numeric_difference": 0.0,
+      "identical_bytes": true,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "issues": []
+    },
+    {
+      "file": "data/horizon_endpoint_comparison.csv",
+      "passed": true,
+      "rows": 14,
+      "maximum_absolute_numeric_difference": 0.0,
+      "identical_bytes": true,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "issues": []
+    },
+    {
+      "file": "data/horizon_monitoring_800.csv",
+      "passed": true,
+      "rows": 10000,
+      "maximum_absolute_numeric_difference": 0.0,
+      "identical_bytes": true,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "issues": []
+    },
+    {
+      "file": "data/horizon_monitoring_8000.csv",
+      "passed": true,
+      "rows": 10000,
+      "maximum_absolute_numeric_difference": 0.0,
+      "identical_bytes": true,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "issues": []
+    },
+    {
+      "file": "data/horizon_stopping_replicates.csv",
+      "passed": true,
+      "rows": 80000,
+      "maximum_absolute_numeric_difference": 0.0,
+      "identical_bytes": true,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "issues": []
+    },
+    {
+      "file": "data/lmi_path.csv",
+      "passed": true,
+      "rows": 800,
+      "maximum_absolute_numeric_difference": 0.0,
+      "identical_bytes": true,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "issues": []
+    },
+    {
+      "file": "data/lmi_replicates.csv",
+      "passed": true,
+      "rows": 900,
+      "maximum_absolute_numeric_difference": 0.0,
+      "identical_bytes": true,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "issues": []
+    },
+    {
+      "file": "data/mechanical_path.csv",
+      "passed": true,
+      "rows": 800,
+      "maximum_absolute_numeric_difference": 0.0,
+      "identical_bytes": true,
+      "rtol": 1e-06,
+      "atol": 1e-07,
+      "issues": []
+    },
+    {
+      "file": "data/mechanical_results.json",
+      "passed": true,
+      "rtol": 1e-06,
+      "atol": 1e-07,
+      "issues": []
+    },
+    {
+      "file": "data/monitoring_example.csv",
+      "passed": true,
+      "rows": 8000,
+      "maximum_absolute_numeric_difference": 0.0,
+      "identical_bytes": true,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "issues": []
+    },
+    {
+      "file": "data/monitoring_replicates.csv",
+      "passed": true,
+      "rows": 10000,
+      "maximum_absolute_numeric_difference": 0.0,
+      "identical_bytes": true,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "issues": []
+    },
+    {
+      "file": "data/recrossing_example.csv",
+      "passed": true,
+      "rows": 800,
+      "maximum_absolute_numeric_difference": 0.0,
+      "identical_bytes": true,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "issues": []
+    },
+    {
+      "file": "data/results.json",
+      "passed": true,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "issues": []
+    },
+    {
+      "file": "data/revision_results.json",
+      "passed": true,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "issues": []
+    },
+    {
+      "file": "data/selection_sensitivity.csv",
+      "passed": true,
+      "rows": 150,
+      "maximum_absolute_numeric_difference": 0.0,
+      "identical_bytes": true,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "issues": []
+    },
+    {
+      "file": "data/specification_path.csv",
+      "passed": true,
+      "rows": 4000,
+      "maximum_absolute_numeric_difference": 0.0,
+      "identical_bytes": true,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "issues": []
+    },
+    {
+      "file": "data/stopping_audit_replicates.csv",
+      "passed": true,
+      "rows": 80000,
+      "maximum_absolute_numeric_difference": 0.0,
+      "identical_bytes": true,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "issues": []
+    },
+    {
+      "file": "checks/horizon_high_precision_roots.csv",
+      "passed": true,
+      "rows": 60,
+      "maximum_absolute_numeric_difference": 0.0,
+      "identical_bytes": true,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "issues": []
+    },
+    {
+      "file": "checks/horizon_mpc_verification.json",
+      "passed": true,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "issues": []
+    },
+    {
+      "file": "checks/horizon_root_checks.csv",
+      "passed": true,
+      "rows": 69,
+      "maximum_absolute_numeric_difference": 0.0,
+      "identical_bytes": true,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "issues": []
+    },
+    {
+      "file": "checks/lmi_support_audit.csv",
+      "passed": true,
+      "rows": 1546,
+      "maximum_absolute_numeric_difference": 0.0,
+      "identical_bytes": true,
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "issues": []
+    },
+    {
+      "file": "checks/mechanical_audit.csv",
+      "passed": true,
+      "rows": 9,
+      "maximum_absolute_numeric_difference": 0.0,
+      "identical_bytes": true,
+      "rtol": 1e-06,
+      "atol": 1e-07,
+      "issues": []
+    },
+    {
+      "file": "tables/final_comparison.tex",
+      "passed": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "tables/horizon_endpoints.tex",
+      "passed": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "tables/horizon_main_rows.tex",
+      "passed": true,
+      "identical_bytes": true
+    }
+  ],
+  "figures": [
+    {
+      "figure": "horizon_comparison",
+      "pdf_present": true,
+      "png_present": true,
+      "pixel_identical": true,
+      "reference_shape": [
+        506,
+        735,
+        4
+      ],
+      "generated_shape": [
+        506,
+        735,
+        4
+      ],
+      "maximum_channel_difference": 0,
+      "passed": true
+    },
+    {
+      "figure": "certificate_archive",
+      "pdf_present": true,
+      "png_present": true,
+      "pixel_identical": true,
+      "reference_shape": [
+        521,
+        742,
+        4
+      ],
+      "generated_shape": [
+        521,
+        742,
+        4
+      ],
+      "maximum_channel_difference": 0,
+      "passed": true
+    },
+    {
+      "figure": "disturbance_risk",
+      "pdf_present": true,
+      "png_present": true,
+      "pixel_identical": true,
+      "reference_shape": [
+        527,
+        733,
+        4
+      ],
+      "generated_shape": [
+        527,
+        733,
+        4
+      ],
+      "maximum_channel_difference": 0,
+      "passed": true
+    }
+  ]
+}

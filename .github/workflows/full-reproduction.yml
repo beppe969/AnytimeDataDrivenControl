@@ -1,0 +1,45 @@
+name: Full numerical reproduction
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  full:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MPLBACKEND: Agg
+      PYTHONUTF8: '1'
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13.5'
+          cache: pip
+          cache-dependency-path: requirements-lock.txt
+      - name: Install matched dependencies
+        run: python -m pip install -r requirements-lock.txt
+      - name: Run all scientific scripts from empty outputs
+        run: python reproduce.py full --run-dir runs/full
+      - name: Save complete reproduction artifacts
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: full-numerical-reproduction
+          path: |
+            runs/full/run_manifest.json
+            runs/full/data/
+            runs/full/checks/
+            runs/full/logs/
+            runs/full/figures/
+            runs/full/tables/
+            runs/full/paper_results.md
+          if-no-files-found: warn
+          retention-days: 30

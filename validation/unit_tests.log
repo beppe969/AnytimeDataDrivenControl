@@ -1,0 +1,35 @@
+test_comparator_independent_roots (test_reproduction.CertificateTests.test_comparator_independent_roots) ... ok
+test_fixed_sample_size (test_reproduction.CertificateTests.test_fixed_sample_size) ... ok
+test_gcc_stages (test_reproduction.CertificateTests.test_gcc_stages) ... ok
+test_invalid_inputs (test_reproduction.CertificateTests.test_invalid_inputs) ... ok
+test_k_equals_n (test_reproduction.CertificateTests.test_k_equals_n) ... ok
+test_paper_endpoint (test_reproduction.CertificateTests.test_paper_endpoint) ... ok
+test_root_is_conservative (test_reproduction.CertificateTests.test_root_is_conservative) ... ok
+test_small_qp_path (test_reproduction.CertificateTests.test_small_qp_path) ... ok
+test_stricter_confidence (test_reproduction.CertificateTests.test_stricter_confidence) ... ok
+test_summable_weights (test_reproduction.CertificateTests.test_summable_weights) ... ok
+test_uniform_complexity_weights (test_reproduction.CertificateTests.test_uniform_complexity_weights) ... ok
+test_zero_complexity_root (test_reproduction.CertificateTests.test_zero_complexity_root) ... ok
+test_conditional_certificate_status_is_checked (test_reproduction.ComparisonTests.test_conditional_certificate_status_is_checked) ... ok
+test_csv_counts_and_schema (test_reproduction.ComparisonTests.test_csv_counts_and_schema) ... ok
+test_elapsed_time_is_excluded (test_reproduction.ComparisonTests.test_elapsed_time_is_excluded) ... ok
+test_float_tolerance (test_reproduction.ComparisonTests.test_float_tolerance) ... ok
+test_integer_counts_are_exact (test_reproduction.ComparisonTests.test_integer_counts_are_exact) ... ok
+test_missing_json_field_fails (test_reproduction.ComparisonTests.test_missing_json_field_fails) ... ok
+test_child_settings (test_reproduction.RunnerTests.test_child_settings) ... ok
+test_existing_outputs_preserved (test_reproduction.RunnerTests.test_existing_outputs_preserved) ... ok
+test_five_source_verifiers (test_reproduction.RunnerTests.test_five_source_verifiers) ... ok
+test_full_starts_empty (test_reproduction.RunnerTests.test_full_starts_empty) ... ok
+test_metadata_uses_repository_relative_paths (test_reproduction.RunnerTests.test_metadata_uses_repository_relative_paths) ... ok
+test_missing_manifest_is_reported (test_reproduction.RunnerTests.test_missing_manifest_is_reported) ... ok
+test_paper_metadata (test_reproduction.RunnerTests.test_paper_metadata) ... ok
+test_protected_paths_rejected (test_reproduction.RunnerTests.test_protected_paths_rejected) ... ok
+test_release_contains_required_manifests (test_reproduction.RunnerTests.test_release_contains_required_manifests) ... ok
+test_release_requires_core_files (test_reproduction.RunnerTests.test_release_requires_core_files) ... ok
+test_seeded_inputs_recorded (test_reproduction.RunnerTests.test_seeded_inputs_recorded) ... ok
+test_source_integrity (test_reproduction.RunnerTests.test_source_integrity) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 6.126s
+
+OK

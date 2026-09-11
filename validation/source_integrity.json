@@ -1,0 +1,8 @@
+[
+  {
+    "manifest": "SOURCE_MANIFEST.sha256",
+    "checked_files": 73,
+    "passed": true,
+    "failures": []
+  }
+]

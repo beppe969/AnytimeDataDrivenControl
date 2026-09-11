@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "title": "A Universal Iterated-Logarithm Anytime Law for Data-Driven Control Design",
+    "author": "G. Calafiore"
+  },
+  "package_version": "1.0.1",
+  "date": "2026-09-11",
+  "full_run_status": "passed",
+  "starts_from_empty_outputs": true,
+  "seeded_reference_outputs": 0,
+  "scientific_script_executions": 14,
+  "additional_export_and_comparison_steps": 2,
+  "numerical_records_compared": 35,
+  "all_numerical_records_match": true,
+  "csv_files_compared": 24,
+  "all_csvs_byte_identical": true,
+  "all_npz_arrays_exactly_match": true,
+  "main_figures": 3,
+  "all_pngs_pixel_identical": true,
+  "all_rendered_pdfs_pixel_identical": true,
+  "unit_tests": 30,
+  "unit_tests_passed": true,
+  "scientific_input_hashes_checked": 73,
+  "scientific_python_files_unchanged": 16,
+  "reference_files_unchanged": 55,
+  "elapsed_seconds": 137.35847353600002,
+  "environment_matches_lock": true,
+  "verification_scripts_passed": 5,
+  "limits": {
+    "fresh_network_install": "not tested during this release validation",
+    "hosted_github_actions": "not executed during this release validation",
+    "cross_platform_execution": "not tested; numerical execution verified on the recorded Linux environment"
+  }
+}

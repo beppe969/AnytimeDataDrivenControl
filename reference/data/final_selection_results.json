@@ -1,0 +1,235 @@
+{
+  "protocol": {
+    "seed": 26090781,
+    "nmax": 800,
+    "replicates": 10000,
+    "delta": 0.05,
+    "eps": [
+      0.05,
+      0.15
+    ],
+    "source": "same QP as experiments.py",
+    "plans": {
+      "0.05": {
+        "N": 93,
+        "stages": [
+          92,
+          132,
+          162
+        ]
+      },
+      "0.15": {
+        "N": 30,
+        "stages": [
+          29,
+          42,
+          52
+        ]
+      }
+    }
+  },
+  "validation": {
+    "max_gain_difference": 8.326672684688674e-16,
+    "max_risk_difference": 2.1510571102112408e-16,
+    "complexities_equal": true,
+    "prefixes_compared": 24000
+  },
+  "stopping": [
+    {
+      "eps": 0.05,
+      "method": "Fixed N",
+      "replicates": 10000,
+      "deployed": 10000,
+      "mean_n": 93.0,
+      "sd_n": 0.0,
+      "mean_risk": 0.018962183111109986,
+      "failures": 372,
+      "frequency": 0.0372,
+      "CP95": [
+        0.033576068427328014,
+        0.04109654497237533
+      ]
+    },
+    {
+      "eps": 0.05,
+      "method": "CG23-repeated",
+      "replicates": 10000,
+      "deployed": 10000,
+      "mean_n": 165.5273,
+      "sd_n": 16.013728443428345,
+      "mean_risk": 0.010670929623982604,
+      "failures": 10,
+      "frequency": 0.001,
+      "CP95": [
+        0.00047963972377107695,
+        0.0018382641342106199
+      ]
+    },
+    {
+      "eps": 0.05,
+      "method": "GCC refined",
+      "replicates": 10000,
+      "deployed": 10000,
+      "mean_n": 156.186,
+      "sd_n": 11.85881390134421,
+      "mean_risk": 0.011354541393517707,
+      "failures": 21,
+      "frequency": 0.0021,
+      "CP95": [
+        0.0013003884742225549,
+        0.0032082911452310015
+      ]
+    },
+    {
+      "eps": 0.05,
+      "method": "Anytime",
+      "replicates": 10000,
+      "deployed": 10000,
+      "mean_n": 344.0676,
+      "sd_n": 35.2958270873623,
+      "mean_risk": 0.0051407643741462825,
+      "failures": 0,
+      "frequency": 0.0,
+      "CP95": [
+        0.0,
+        0.0003688199146187622
+      ]
+    },
+    {
+      "eps": 0.15,
+      "method": "Fixed N",
+      "replicates": 10000,
+      "deployed": 10000,
+      "mean_n": 30.0,
+      "sd_n": 0.0,
+      "mean_risk": 0.055244017102281065,
+      "failures": 308,
+      "frequency": 0.0308,
+      "CP95": [
+        0.02750088703176576,
+        0.034375951783222065
+      ]
+    },
+    {
+      "eps": 0.15,
+      "method": "CG23-repeated",
+      "replicates": 10000,
+      "deployed": 10000,
+      "mean_n": 52.4271,
+      "sd_n": 5.676399187933674,
+      "mean_risk": 0.03216669471956636,
+      "failures": 7,
+      "frequency": 0.0007,
+      "CP95": [
+        0.00028148114574279455,
+        0.0014417323091497692
+      ]
+    },
+    {
+      "eps": 0.15,
+      "method": "GCC refined",
+      "replicates": 10000,
+      "deployed": 10000,
+      "mean_n": 49.469,
+      "sd_n": 4.3480949383562555,
+      "mean_risk": 0.034183919387321224,
+      "failures": 10,
+      "frequency": 0.001,
+      "CP95": [
+        0.00047963972377107695,
+        0.0018382641342106199
+      ]
+    },
+    {
+      "eps": 0.15,
+      "method": "Anytime",
+      "replicates": 10000,
+      "deployed": 10000,
+      "mean_n": 108.0437,
+      "sd_n": 7.3559500616936635,
+      "mean_risk": 0.016107201407766114,
+      "failures": 0,
+      "frequency": 0.0,
+      "CP95": [
+        0.0,
+        0.0003688199146187622
+      ]
+    }
+  ],
+  "archive": [
+    {
+      "eps": 0.05,
+      "streams_with_recrossings": 498,
+      "frequency": 0.0498,
+      "CP95": [
+        0.04561810360877032,
+        0.054246490747392996
+      ],
+      "total_intervals": 499,
+      "total_unavailable_prefixes": 23641,
+      "mean_unavailable": 2.3641,
+      "mean_unavailable_given_recrossing": 47.471887550200805,
+      "max_interval": 90,
+      "mean_first": 344.0676,
+      "latest_unavailability_uniform_post_first": 0.004485445899595635
+    },
+    {
+      "eps": 0.15,
+      "streams_with_recrossings": 342,
+      "frequency": 0.0342,
+      "CP95": [
+        0.030724127265317567,
+        0.037950449299150806
+      ],
+      "total_intervals": 343,
+      "total_unavailable_prefixes": 3239,
+      "mean_unavailable": 0.3239,
+      "mean_unavailable_given_recrossing": 9.470760233918128,
+      "max_interval": 17,
+      "mean_first": 108.0437,
+      "latest_unavailability_uniform_post_first": 0.00045880871030951786
+    }
+  ],
+  "first_recrossing_example": {
+    "replicate": 7,
+    "first": 271,
+    "intervals": [
+      [
+        351,
+        361
+      ]
+    ],
+    "first_k": 1,
+    "first_risk": 0.0009271710124191036,
+    "first_U": 0.04878717610342121
+  },
+  "hull_recrossings": {
+    "first": 3267,
+    "intervals": [],
+    "unavailable_prefixes": 0
+  },
+  "all_prefix_coverage": [
+    {
+      "method": "CG23",
+      "crossings": 457,
+      "frequency": 0.0457,
+      "CP95": [
+        0.04168977418758913,
+        0.04997739789153044
+      ]
+    },
+    {
+      "method": "Anytime",
+      "crossings": 2,
+      "frequency": 0.0002,
+      "CP95": [
+        2.422184564042985e-05,
+        0.0007222800577237158
+      ]
+    }
+  ],
+  "boundary_updates": 103050,
+  "max_sample_residual": 7.771561172376096e-16,
+  "nonmonotone_streams": 3634,
+  "elapsed_seconds": 27.776679219000016
+}

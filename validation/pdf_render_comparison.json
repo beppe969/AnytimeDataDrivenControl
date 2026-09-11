@@ -1,0 +1,23 @@
+[
+  {
+    "figure": "horizon_comparison",
+    "renderer": "pdftoppm",
+    "dpi": 160,
+    "same_dimensions": true,
+    "pixels_identical": true
+  },
+  {
+    "figure": "certificate_archive",
+    "renderer": "pdftoppm",
+    "dpi": 160,
+    "same_dimensions": true,
+    "pixels_identical": true
+  },
+  {
+    "figure": "disturbance_risk",
+    "renderer": "pdftoppm",
+    "dpi": 160,
+    "same_dimensions": true,
+    "pixels_identical": true
+  }
+]

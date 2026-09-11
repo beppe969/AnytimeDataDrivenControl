@@ -1,0 +1,8 @@
+* text=auto eol=lf
+# Keep archived CSV bytes intact (the original CSV writer uses CRLF in some files).
+reference/** -text
+code/*.py -text
+requirements.txt -text
+*.png binary
+*.pdf binary
+*.npz binary

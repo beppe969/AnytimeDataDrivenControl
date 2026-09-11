@@ -1,0 +1,21 @@
+# Tested dependency closure for the CPython 3.13.5 reference environment.
+# requirements.txt records the seven direct dependencies.
+contourpy==1.3.3
+cycler==0.12.1
+fonttools==4.63.0
+kiwisolver==1.5.0
+llvmlite==0.47.0
+matplotlib==3.10.8
+mpmath==1.3.0
+numba==0.65.1
+numpy==2.3.5
+packaging==25.0
+pandas==2.2.3
+pillow==12.3.0
+pyparsing==3.3.2
+python-dateutil==2.9.0.post0
+pytz==2026.2
+scipy==1.17.0
+shapely==2.1.2
+six==1.17.0
+tzdata==2026.2

@@ -1,0 +1,79 @@
+{
+  "alternative_priors": [
+    {
+      "prior": "power",
+      "gamma": 0.25,
+      "telescoping_residual": 0.0
+    },
+    {
+      "prior": "power",
+      "gamma": 0.5,
+      "telescoping_residual": 1.1102230246251565e-16
+    },
+    {
+      "prior": "power",
+      "gamma": 1.0,
+      "telescoping_residual": 0.0
+    },
+    {
+      "prior": "critical",
+      "gamma": 0.5,
+      "telescoping_residual": 0.0
+    }
+  ],
+  "CG23_fixed_k_limits": [
+    {
+      "k": 1,
+      "limit": 6.85360782208217,
+      "n": [
+        1000,
+        10000,
+        100000
+      ],
+      "n_bound": [
+        6.830215630154106,
+        6.851263308763606,
+        6.853373317694257
+      ]
+    },
+    {
+      "k": 2,
+      "limit": 8.851334338777376,
+      "n": [
+        1000,
+        10000,
+        100000
+      ],
+      "n_bound": [
+        8.817460865769714,
+        8.847939210098993,
+        8.850994747924343
+      ]
+    },
+    {
+      "k": 5,
+      "limit": 14.08351163908588,
+      "n": [
+        1000,
+        10000,
+        100000
+      ],
+      "n_bound": [
+        14.016175673059935,
+        14.076763350005098,
+        14.082836662924574
+      ]
+    }
+  ],
+  "reported_counts_match_raw_outputs": true,
+  "fixed_k_certificate_nonincreasing_through_8000": [
+    0,
+    1,
+    2
+  ],
+  "archive_sample_counts": {
+    "streams": 498,
+    "intervals": 499,
+    "prefixes": 23641
+  }
+}

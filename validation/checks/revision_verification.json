@@ -1,0 +1,132 @@
+{
+  "explicit_bounds": {
+    "cases": 53,
+    "ell_at_most_Lambda": true,
+    "finite_envelope": true,
+    "maximum_ell_over_Lambda": 0.8691742569351301
+  },
+  "order_statistics": {
+    "retained_omitted_pairs": 26244,
+    "all_k_witnesses_projective": true,
+    "sample_consistency": true,
+    "duplicate_constraint_counterexample": true
+  },
+  "benchmarks": {
+    "refined_stage_cases": [
+      {
+        "d": 1,
+        "eps": 0.05,
+        "delta": 0.05,
+        "stages": [
+          84,
+          120
+        ]
+      },
+      {
+        "d": 1,
+        "eps": 0.1,
+        "delta": 0.01,
+        "stages": [
+          60,
+          80
+        ]
+      },
+      {
+        "d": 2,
+        "eps": 0.05,
+        "delta": 0.05,
+        "stages": [
+          92,
+          132,
+          162
+        ]
+      },
+      {
+        "d": 2,
+        "eps": 0.1,
+        "delta": 0.01,
+        "stages": [
+          63,
+          85,
+          102
+        ]
+      },
+      {
+        "d": 4,
+        "eps": 0.05,
+        "delta": 0.05,
+        "stages": [
+          102,
+          142,
+          178,
+          213,
+          234
+        ]
+      },
+      {
+        "d": 4,
+        "eps": 0.1,
+        "delta": 0.01,
+        "stages": [
+          67,
+          89,
+          109,
+          127,
+          139
+        ]
+      },
+      {
+        "d": 8,
+        "eps": 0.05,
+        "delta": 0.05,
+        "stages": [
+          112,
+          154,
+          190,
+          225,
+          257,
+          288,
+          319,
+          350,
+          362
+        ]
+      },
+      {
+        "d": 8,
+        "eps": 0.1,
+        "delta": 0.01,
+        "stages": [
+          71,
+          94,
+          114,
+          132,
+          149,
+          166,
+          182,
+          198,
+          206
+        ]
+      }
+    ],
+    "GC22_root_checks": [
+      {
+        "n": 1000,
+        "k": 2,
+        "n_upper": 9.821819537963712,
+        "root_residual": -1.7208456881689926e-14
+      },
+      {
+        "n": 3425,
+        "k": 23,
+        "n_upper": 41.3887923217847,
+        "root_residual": 2.339239912885205e-12
+      },
+      {
+        "n": 10000,
+        "k": 23,
+        "n_upper": 41.46143823462574,
+        "root_residual": -1.7922774375733752e-11
+      }
+    ]
+  }
+}

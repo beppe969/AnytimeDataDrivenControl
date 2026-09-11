@@ -1,0 +1,1076 @@
+{
+  "basis": "Numerical results for \"A Universal Iterated-Logarithm Anytime Law for Data-Driven Control Design\" by G. Calafiore.",
+  "csv": [
+    {
+      "file": "reference/data/archive_audit_replicates.csv",
+      "rows": 20000,
+      "columns": [
+        {
+          "name": "replicate",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "eps",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "first",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "recrossing_intervals",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "unavailable_prefixes",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "longest_interval",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        }
+      ]
+    },
+    {
+      "file": "reference/data/complexity_sweep.csv",
+      "rows": 13,
+      "columns": [
+        {
+          "name": "n",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "k",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "n_GC22",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "n_revised",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "n_original",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "ratio_revised",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "ratio_original",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        }
+      ]
+    },
+    {
+      "file": "reference/data/disturbance_path.csv",
+      "rows": 8000,
+      "columns": [
+        {
+          "name": "n",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "k_hull",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "risk_hull",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "U_hull",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "U_per_time",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "k_box",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "risk_box",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "U_box",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        }
+      ]
+    },
+    {
+      "file": "reference/data/final_fixed_time_comparison.csv",
+      "rows": 5,
+      "columns": [
+        {
+          "name": "n",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "k",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "beta",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "CG23",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "anytime",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "n_beta",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "n_CG23",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "n_anytime",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "any_CG",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "any_beta",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        }
+      ]
+    },
+    {
+      "file": "reference/data/fixed_time_comparison.csv",
+      "rows": 12,
+      "columns": [
+        {
+          "name": "n",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "k",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "n_GC22",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "n_localized_fixed",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "n_original_anytime",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "n_revised_anytime",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "ratio_to_GC22",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "ratio_to_own_fixed",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        }
+      ]
+    },
+    {
+      "file": "reference/data/horizon_crossover_sweep.csv",
+      "rows": 724,
+      "columns": [
+        {
+          "name": "N",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "k",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "anytime",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "finite_horizon",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "any_union",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        }
+      ]
+    },
+    {
+      "file": "reference/data/horizon_disturbance_path.csv",
+      "rows": 8000,
+      "columns": [
+        {
+          "name": "n",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "k_hull",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "risk_hull",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "U_hull",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "U_per_time",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "k_box",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "risk_box",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "U_box",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "finite_hull",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "finite_box",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        }
+      ]
+    },
+    {
+      "file": "reference/data/horizon_endpoint_comparison.csv",
+      "rows": 14,
+      "columns": [
+        {
+          "name": "N",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "k",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "beta",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "CG23",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "finite_horizon",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "anytime",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "summable_CG23",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "per_time",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "any_union",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        }
+      ]
+    },
+    {
+      "file": "reference/data/horizon_monitoring_800.csv",
+      "rows": 10000,
+      "columns": [
+        {
+          "name": "replicate",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "terminal_k",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "terminal_risk",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "CG23",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "Anytime",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "Finite horizon",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "Summable CG23",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        }
+      ]
+    },
+    {
+      "file": "reference/data/horizon_monitoring_8000.csv",
+      "rows": 10000,
+      "columns": [
+        {
+          "name": "replicate",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "terminal_k",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "terminal_risk",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "CG23",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "Anytime",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "Finite horizon",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "Summable CG23",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        }
+      ]
+    },
+    {
+      "file": "reference/data/horizon_stopping_replicates.csv",
+      "rows": 80000,
+      "columns": [
+        {
+          "name": "replicate",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "eps",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "method",
+          "inferred_pandas_dtype": "object",
+          "missing": 0
+        },
+        {
+          "name": "deployed",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "acquired",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "k",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "risk",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "risk_exceeds_eps",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        }
+      ]
+    },
+    {
+      "file": "reference/data/lmi_path.csv",
+      "rows": 800,
+      "columns": [
+        {
+          "name": "n",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "k",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "risk",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "U_anytime",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "U_per_time",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "L1",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "L2",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        }
+      ]
+    },
+    {
+      "file": "reference/data/lmi_replicates.csv",
+      "rows": 900,
+      "columns": [
+        {
+          "name": "replicate",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "method",
+          "inferred_pandas_dtype": "object",
+          "missing": 0
+        },
+        {
+          "name": "n",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "k",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "risk",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "nominal_cost",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "anytime_U",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        }
+      ]
+    },
+    {
+      "file": "reference/data/mechanical_path.csv",
+      "rows": 800,
+      "columns": [
+        {
+          "name": "n",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "k",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "U",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "objective",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "L0",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "L1",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "L2",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "L3",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "L4",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "L5",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "L6",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "L7",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "L8",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "L9",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "L10",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "L11",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "L12",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "L13",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "L14",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "L15",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "L16",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "L17",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        }
+      ]
+    },
+    {
+      "file": "reference/data/monitoring_example.csv",
+      "rows": 8000,
+      "columns": [
+        {
+          "name": "n",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "k",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "risk",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "CG23",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "U",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        }
+      ]
+    },
+    {
+      "file": "reference/data/monitoring_replicates.csv",
+      "rows": 10000,
+      "columns": [
+        {
+          "name": "replicate",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "first_CG23_failure",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "first_anytime_failure",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "terminal_k",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "terminal_risk",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        }
+      ]
+    },
+    {
+      "file": "reference/data/recrossing_example.csv",
+      "rows": 800,
+      "columns": [
+        {
+          "name": "n",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "k",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "risk",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "U",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "CG23",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "gain1",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "gain2",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        }
+      ]
+    },
+    {
+      "file": "reference/data/selection_sensitivity.csv",
+      "rows": 150,
+      "columns": [
+        {
+          "name": "replicate",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "aligned_first_cost",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "aligned_selected_cost",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        }
+      ]
+    },
+    {
+      "file": "reference/data/specification_path.csv",
+      "rows": 4000,
+      "columns": [
+        {
+          "name": "n",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "k",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "risk",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "U",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        }
+      ]
+    },
+    {
+      "file": "reference/data/stopping_audit_replicates.csv",
+      "rows": 80000,
+      "columns": [
+        {
+          "name": "replicate",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "eps",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "method",
+          "inferred_pandas_dtype": "object",
+          "missing": 0
+        },
+        {
+          "name": "deployed",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "acquired",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "k",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "risk",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "risk_exceeds_eps",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        }
+      ]
+    },
+    {
+      "file": "reference/checks/horizon_high_precision_roots.csv",
+      "rows": 60,
+      "columns": [
+        {
+          "name": "n",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "k",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "delta",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "u",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "log_equation_residual",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        }
+      ]
+    },
+    {
+      "file": "reference/checks/horizon_root_checks.csv",
+      "rows": 69,
+      "columns": [
+        {
+          "name": "n",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "k",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "delta",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "fast",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "direct",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "error",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        }
+      ]
+    },
+    {
+      "file": "reference/checks/lmi_support_audit.csv",
+      "rows": 1546,
+      "columns": [
+        {
+          "name": "replicate",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "n",
+          "inferred_pandas_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "reconstruction_error",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "minimum_multiplier",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "maximum_constraint_residual",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        }
+      ]
+    },
+    {
+      "file": "reference/checks/mechanical_audit.csv",
+      "rows": 9,
+      "columns": [
+        {
+          "name": "n",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "k",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "min_slack",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "reconstruction_error",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "KKT_residual",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "min_singular_value",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "min_multiplier",
+          "inferred_pandas_dtype": "float64",
+          "missing": 0
+        }
+      ]
+    }
+  ],
+  "npz": [
+    {
+      "archive": "reference/data/disturbance_samples.npz",
+      "key": "W",
+      "shape": [
+        8000,
+        2
+      ],
+      "dtype": "float64"
+    },
+    {
+      "archive": "reference/data/disturbance_samples.npz",
+      "key": "G",
+      "shape": [
+        2,
+        2
+      ],
+      "dtype": "float64"
+    },
+    {
+      "archive": "reference/data/disturbance_samples.npz",
+      "key": "Box",
+      "shape": [
+        4,
+        2
+      ],
+      "dtype": "float64"
+    },
+    {
+      "archive": "reference/data/disturbance_samples.npz",
+      "key": "Hull",
+      "shape": [
+        23,
+        2
+      ],
+      "dtype": "float64"
+    },
+    {
+      "archive": "reference/data/disturbance_samples.npz",
+      "key": "Hull_per_time",
+      "shape": [
+        22,
+        2
+      ],
+      "dtype": "float64"
+    }
+  ]
+}

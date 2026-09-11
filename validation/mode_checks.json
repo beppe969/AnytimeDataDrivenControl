@@ -1,0 +1,23 @@
+[
+  {
+    "mode": "smoke",
+    "status": "passed",
+    "matched_environment": true,
+    "steps": 1,
+    "elapsed_seconds": 6.408936079
+  },
+  {
+    "mode": "verify",
+    "status": "passed",
+    "matched_environment": true,
+    "steps": 6,
+    "elapsed_seconds": 15.165139618000012
+  },
+  {
+    "mode": "figures",
+    "status": "passed",
+    "matched_environment": true,
+    "steps": 4,
+    "elapsed_seconds": 13.152966666999987
+  }
+]

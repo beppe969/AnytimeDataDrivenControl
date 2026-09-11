@@ -1,0 +1,93 @@
+{
+  "table_2_all_printed_rows_match": true,
+  "table_3_recomputed_from_raw_records": [
+    {
+      "method": "Fixed N",
+      "mean_n": 93.0,
+      "errors": 372,
+      "CP95": [
+        0.033576068427328014,
+        0.04109654497237533
+      ]
+    },
+    {
+      "method": "CG23-repeated",
+      "mean_n": 165.5273,
+      "errors": 10,
+      "CP95": [
+        0.00047963972377107695,
+        0.0018382641342106199
+      ]
+    },
+    {
+      "method": "GCC refined",
+      "mean_n": 156.186,
+      "errors": 21,
+      "CP95": [
+        0.0013003884742225549,
+        0.0032082911452310015
+      ]
+    },
+    {
+      "method": "Finite horizon",
+      "mean_n": 334.971,
+      "errors": 0,
+      "CP95": [
+        0.0,
+        0.0003688199146187622
+      ]
+    },
+    {
+      "method": "Summable CG23",
+      "mean_n": 401.9133,
+      "errors": 0,
+      "CP95": [
+        0.0,
+        0.0003688199146187622
+      ]
+    },
+    {
+      "method": "Anytime",
+      "mean_n": 344.0676,
+      "errors": 0,
+      "CP95": [
+        0.0,
+        0.0003688199146187622
+      ]
+    }
+  ],
+  "table_4_recomputed_from_raw_records": [
+    {
+      "through": 800,
+      "crossings": 488,
+      "CP95": [
+        0.04465919856329064,
+        0.05320602224934482
+      ]
+    },
+    {
+      "through": 8000,
+      "crossings": 680,
+      "CP95": [
+        0.06314222773470408,
+        0.073111147871845
+      ]
+    }
+  ],
+  "archive": {
+    "affected_streams": 498,
+    "gaps": 499,
+    "prefixes": 23641,
+    "longest_gap": 90
+  },
+  "performance_sensitivity": {
+    "aligned_percent": 0.0008968841606615818,
+    "aligned_improved": 1,
+    "alternative_percent": 3.3813908359234923,
+    "alternative_improved": 70,
+    "alternative_was_post_hoc": true
+  },
+  "tube_MPC_first_qualification_and_costs_match": true,
+  "mechanical_conditional_bound_and_validation_match": true,
+  "all_checks_passed": true
+}

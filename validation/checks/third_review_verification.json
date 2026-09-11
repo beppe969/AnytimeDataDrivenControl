@@ -1,0 +1,12 @@
+{
+  "high_precision_checks": 60,
+  "precision_decimal_digits": 65,
+  "maximum_log_equation_residual": 4.219744125358137e-11,
+  "summable_weights_telescope": true,
+  "all_new_counts_match_raw_outputs": true,
+  "replay_matches_original_results": true,
+  "comparisons_within_crossing_tolerance": 0,
+  "one_archive_stream_has_two_gaps": true,
+  "new_MPC_deployments_feasible": true,
+  "endpoint_sweep_is_deterministic": true
+}

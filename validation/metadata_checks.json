@@ -1,0 +1,19 @@
+{
+  "code": {
+    "files": 16,
+    "identical_bytes": true,
+    "differences": []
+  },
+  "reference": {
+    "files": 55,
+    "identical_bytes": true,
+    "differences": []
+  },
+  "citation_metadata": "parsed and checked",
+  "workflow_yaml": "both files parsed; hosted execution not tested",
+  "python_source": "all Python files parsed",
+  "paper": {
+    "title": "A Universal Iterated-Logarithm Anytime Law for Data-Driven Control Design",
+    "author": "G. Calafiore"
+  }
+}

@@ -1,0 +1,915 @@
+{
+  "deterministic": {
+    "root_checks": 69,
+    "max_root_error": 1.1113332476497817e-13,
+    "endpoint_rows": [
+      {
+        "N": 800,
+        "k": 2,
+        "beta": 4.7327787276263145,
+        "CG23": 8.80901944730806,
+        "finite_horizon": 17.40864662727143,
+        "anytime": 19.908592967547857,
+        "summable_CG23": 21.78604606012745,
+        "per_time": 26.31808999777943,
+        "any_union": 1.1436037156593293
+      },
+      {
+        "N": 800,
+        "k": 5,
+        "beta": 9.124067173018044,
+        "CG23": 13.99939255453001,
+        "finite_horizon": 23.65510094635568,
+        "anytime": 27.988282856347684,
+        "summable_CG23": 28.432039799445025,
+        "per_time": 35.081950447302816,
+        "any_union": 1.1831817128922282
+      },
+      {
+        "N": 800,
+        "k": 23,
+        "beta": 31.229492057094717,
+        "CG23": 39.40301074961955,
+        "finite_horizon": 52.62551925809199,
+        "anytime": 64.93590944087536,
+        "summable_CG23": 58.83106658111388,
+        "per_time": 71.08506791360158,
+        "any_union": 1.2339243461410683
+      },
+      {
+        "N": 800,
+        "k": 100,
+        "beta": 115.64972156325739,
+        "CG23": 131.04340182158663,
+        "finite_horizon": 150.509202633758,
+        "anytime": 172.87967968434467,
+        "summable_CG23": 159.2941966696518,
+        "per_time": 180.61827170696102,
+        "any_union": 1.1486319551172026
+      },
+      {
+        "N": 8000,
+        "k": 2,
+        "beta": 4.742754638894467,
+        "CG23": 8.847090698641454,
+        "finite_horizon": 20.30093863391985,
+        "anytime": 20.14909327898888,
+        "summable_CG23": 25.345514934297064,
+        "per_time": 31.627653048302445,
+        "any_union": 0.9925202791028954
+      },
+      {
+        "N": 8000,
+        "k": 5,
+        "beta": 9.150571036654538,
+        "CG23": 14.07507678897742,
+        "finite_horizon": 26.923671113331885,
+        "anytime": 30.12794931613869,
+        "summable_CG23": 32.41170982355499,
+        "per_time": 40.98432529578191,
+        "any_union": 1.1190134209156986
+      },
+      {
+        "N": 8000,
+        "k": 23,
+        "beta": 31.396320359244072,
+        "CG23": 39.770845479597305,
+        "finite_horizon": 57.57784057449251,
+        "anytime": 66.962959333457,
+        "summable_CG23": 64.75441930517356,
+        "per_time": 79.69920811711025,
+        "any_union": 1.1629987971991114
+      },
+      {
+        "N": 8000,
+        "k": 100,
+        "beta": 116.86523833063403,
+        "CG23": 133.48803972720782,
+        "finite_horizon": 161.61557586578203,
+        "anytime": 183.92201527898104,
+        "summable_CG23": 172.49334760349458,
+        "per_time": 199.73819074790163,
+        "any_union": 1.1380215941050382
+      },
+      {
+        "N": 8000,
+        "k": 1000,
+        "beta": 1048.944836233498,
+        "CG23": 1102.666395452551,
+        "finite_horizon": 1167.9037672919253,
+        "anytime": 1243.067379102202,
+        "summable_CG23": 1192.5426787931654,
+        "per_time": 1267.7581559600226,
+        "any_union": 1.0643577098689923
+      },
+      {
+        "N": 100000,
+        "k": 2,
+        "beta": 4.743775717386053,
+        "CG23": 8.850994747924341,
+        "finite_horizon": 23.252499807046224,
+        "anytime": 21.38364321847749,
+        "summable_CG23": 28.77770414791248,
+        "per_time": 37.04591214603907,
+        "any_union": 0.9196277129737933
+      },
+      {
+        "N": 100000,
+        "k": 5,
+        "beta": 9.153283164463465,
+        "CG23": 14.082836662899028,
+        "finite_horizon": 30.15641140716048,
+        "anytime": 29.7774660272702,
+        "summable_CG23": 36.1252679750824,
+        "per_time": 46.77065763292513,
+        "any_union": 0.9874340028468938
+      },
+      {
+        "N": 100000,
+        "k": 23,
+        "beta": 31.413331354154167,
+        "CG23": 39.8084379920011,
+        "finite_horizon": 61.91144397010693,
+        "anytime": 68.630412782184,
+        "summable_CG23": 69.60693942856837,
+        "per_time": 86.93452342969924,
+        "any_union": 1.1085254741485473
+      },
+      {
+        "N": 100000,
+        "k": 100,
+        "beta": 116.98660450180417,
+        "CG23": 133.73263890580145,
+        "finite_horizon": 168.66633880450263,
+        "anytime": 187.02613721762447,
+        "summable_CG23": 180.25754117762645,
+        "per_time": 210.72242000060803,
+        "any_union": 1.1088527713547058
+      },
+      {
+        "N": 100000,
+        "k": 1000,
+        "beta": 1052.2944994847182,
+        "CG23": 1109.3867677415665,
+        "finite_horizon": 1196.0963289687866,
+        "anytime": 1267.444031339715,
+        "summable_CG23": 1224.0434572695156,
+        "per_time": 1311.5554471327273,
+        "any_union": 1.0596504651363998
+      }
+    ],
+    "crossover_grid": {
+      "2": {
+        "first_grid_N": 4467,
+        "first_grid_bracket": [
+          3981,
+          4467
+        ],
+        "below_at_all_later_grid_points_N": 31623
+      },
+      "5": {
+        "first_grid_N": 63096,
+        "first_grid_bracket": [
+          56234,
+          63096
+        ],
+        "below_at_all_later_grid_points_N": 316228
+      },
+      "23": {
+        "first_grid_N": 3981072,
+        "first_grid_bracket": [
+          3548134,
+          3981072
+        ],
+        "below_at_all_later_grid_points_N": 7943282
+      },
+      "100": {
+        "first_grid_N": 562341325,
+        "first_grid_bracket": [
+          501187234,
+          562341325
+        ],
+        "below_at_all_later_grid_points_N": 891250938
+      }
+    },
+    "elapsed_seconds": 0.8719283739999355
+  },
+  "short": {
+    "protocol": {
+      "seed": 26090781,
+      "cap": 800,
+      "replicates": 10000,
+      "delta": 0.05,
+      "comparison_added_in_third_review": true
+    },
+    "coverage": [
+      {
+        "cap": 800,
+        "inspected_through": 100,
+        "method": "CG23",
+        "crossings": 306,
+        "frequency": 0.0306,
+        "CP95": [
+          0.027311610771014093,
+          0.03416536256923568
+        ]
+      },
+      {
+        "cap": 800,
+        "inspected_through": 100,
+        "method": "Anytime",
+        "crossings": 2,
+        "frequency": 0.0002,
+        "CP95": [
+          2.422184564042985e-05,
+          0.0007222800577237158
+        ]
+      },
+      {
+        "cap": 800,
+        "inspected_through": 100,
+        "method": "Finite horizon",
+        "crossings": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "cap": 800,
+        "inspected_through": 100,
+        "method": "Summable CG23",
+        "crossings": 1,
+        "frequency": 0.0001,
+        "CP95": [
+          2.5317775934746866e-06,
+          0.0005570369979470473
+        ]
+      },
+      {
+        "cap": 800,
+        "inspected_through": 200,
+        "method": "CG23",
+        "crossings": 360,
+        "frequency": 0.036,
+        "CP95": [
+          0.032434465943169476,
+          0.03983892946131856
+        ]
+      },
+      {
+        "cap": 800,
+        "inspected_through": 200,
+        "method": "Anytime",
+        "crossings": 2,
+        "frequency": 0.0002,
+        "CP95": [
+          2.422184564042985e-05,
+          0.0007222800577237158
+        ]
+      },
+      {
+        "cap": 800,
+        "inspected_through": 200,
+        "method": "Finite horizon",
+        "crossings": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "cap": 800,
+        "inspected_through": 200,
+        "method": "Summable CG23",
+        "crossings": 1,
+        "frequency": 0.0001,
+        "CP95": [
+          2.5317775934746866e-06,
+          0.0005570369979470473
+        ]
+      },
+      {
+        "cap": 800,
+        "inspected_through": 400,
+        "method": "CG23",
+        "crossings": 413,
+        "frequency": 0.0413,
+        "CP95": [
+          0.03748412800430332,
+          0.04538584162073016
+        ]
+      },
+      {
+        "cap": 800,
+        "inspected_through": 400,
+        "method": "Anytime",
+        "crossings": 2,
+        "frequency": 0.0002,
+        "CP95": [
+          2.422184564042985e-05,
+          0.0007222800577237158
+        ]
+      },
+      {
+        "cap": 800,
+        "inspected_through": 400,
+        "method": "Finite horizon",
+        "crossings": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "cap": 800,
+        "inspected_through": 400,
+        "method": "Summable CG23",
+        "crossings": 1,
+        "frequency": 0.0001,
+        "CP95": [
+          2.5317775934746866e-06,
+          0.0005570369979470473
+        ]
+      },
+      {
+        "cap": 800,
+        "inspected_through": 800,
+        "method": "CG23",
+        "crossings": 457,
+        "frequency": 0.0457,
+        "CP95": [
+          0.04168977418758913,
+          0.04997739789153044
+        ]
+      },
+      {
+        "cap": 800,
+        "inspected_through": 800,
+        "method": "Anytime",
+        "crossings": 2,
+        "frequency": 0.0002,
+        "CP95": [
+          2.422184564042985e-05,
+          0.0007222800577237158
+        ]
+      },
+      {
+        "cap": 800,
+        "inspected_through": 800,
+        "method": "Finite horizon",
+        "crossings": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "cap": 800,
+        "inspected_through": 800,
+        "method": "Summable CG23",
+        "crossings": 1,
+        "frequency": 0.0001,
+        "CP95": [
+          2.5317775934746866e-06,
+          0.0005570369979470473
+        ]
+      }
+    ],
+    "stopping": [
+      {
+        "eps": 0.05,
+        "method": "Anytime",
+        "deployed": 10000,
+        "mean_n": 344.0676,
+        "sd_n": 35.2958270873623,
+        "mean_risk": 0.0051407643741462825,
+        "failures": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "eps": 0.05,
+        "method": "CG23",
+        "deployed": 10000,
+        "mean_n": 165.5273,
+        "sd_n": 16.013728443428345,
+        "mean_risk": 0.010670929623982604,
+        "failures": 10,
+        "frequency": 0.001,
+        "CP95": [
+          0.00047963972377107695,
+          0.0018382641342106199
+        ]
+      },
+      {
+        "eps": 0.05,
+        "method": "Finite horizon",
+        "deployed": 10000,
+        "mean_n": 334.971,
+        "sd_n": 18.738134132487062,
+        "mean_risk": 0.005311772567299639,
+        "failures": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "eps": 0.05,
+        "method": "Summable CG23",
+        "deployed": 10000,
+        "mean_n": 401.9133,
+        "sd_n": 21.269918289744446,
+        "mean_risk": 0.004451596030640434,
+        "failures": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "eps": 0.15,
+        "method": "Anytime",
+        "deployed": 10000,
+        "mean_n": 108.0437,
+        "sd_n": 7.3559500616936635,
+        "mean_risk": 0.016107201407766114,
+        "failures": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "eps": 0.15,
+        "method": "CG23",
+        "deployed": 10000,
+        "mean_n": 52.4271,
+        "sd_n": 5.676399187933674,
+        "mean_risk": 0.03216669471956636,
+        "failures": 7,
+        "frequency": 0.0007,
+        "CP95": [
+          0.00028148114574279455,
+          0.0014417323091497692
+        ]
+      },
+      {
+        "eps": 0.15,
+        "method": "Finite horizon",
+        "deployed": 10000,
+        "mean_n": 105.4967,
+        "sd_n": 6.538995714671762,
+        "mean_risk": 0.016557912648680475,
+        "failures": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "eps": 0.15,
+        "method": "Summable CG23",
+        "deployed": 10000,
+        "mean_n": 114.3619,
+        "sd_n": 6.886484644365057,
+        "mean_risk": 0.015256619004563248,
+        "failures": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      }
+    ],
+    "replay_matches_archived_data": true,
+    "boundary_updates": 103050,
+    "max_sample_residual": 7.771561172376096e-16,
+    "minimum_absolute_risk_bound_gap": {
+      "CG23": 1.2026057411365643e-07,
+      "Anytime": 0.003758260445229346,
+      "Finite horizon": 0.004226279474044269,
+      "Summable CG23": 0.007368355929196657
+    },
+    "prefix_comparisons_within_tolerance": {
+      "CG23": 0,
+      "Anytime": 0,
+      "Finite horizon": 0,
+      "Summable CG23": 0
+    },
+    "crossing_tolerance": 1e-12,
+    "elapsed_seconds": 6.5340824479999355
+  },
+  "monitoring": {
+    "protocol": {
+      "seed": 26090782,
+      "cap": 8000,
+      "replicates": 10000,
+      "delta": 0.05,
+      "comparison_added_in_third_review": true
+    },
+    "coverage": [
+      {
+        "cap": 8000,
+        "inspected_through": 100,
+        "method": "CG23",
+        "crossings": 317,
+        "frequency": 0.0317,
+        "CP95": [
+          0.028353095683988878,
+          0.035323139893090584
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 100,
+        "method": "Anytime",
+        "crossings": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 100,
+        "method": "Finite horizon",
+        "crossings": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 100,
+        "method": "Summable CG23",
+        "crossings": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 200,
+        "method": "CG23",
+        "crossings": 379,
+        "frequency": 0.0379,
+        "CP95": [
+          0.03424248738532941,
+          0.04182967169018536
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 200,
+        "method": "Anytime",
+        "crossings": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 200,
+        "method": "Finite horizon",
+        "crossings": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 200,
+        "method": "Summable CG23",
+        "crossings": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 400,
+        "method": "CG23",
+        "crossings": 426,
+        "frequency": 0.0426,
+        "CP95": [
+          0.03872552896354328,
+          0.046743610286926335
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 400,
+        "method": "Anytime",
+        "crossings": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 400,
+        "method": "Finite horizon",
+        "crossings": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 400,
+        "method": "Summable CG23",
+        "crossings": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 800,
+        "method": "CG23",
+        "crossings": 488,
+        "frequency": 0.0488,
+        "CP95": [
+          0.04465919856329064,
+          0.05320602224934482
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 800,
+        "method": "Anytime",
+        "crossings": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 800,
+        "method": "Finite horizon",
+        "crossings": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 800,
+        "method": "Summable CG23",
+        "crossings": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 1600,
+        "method": "CG23",
+        "crossings": 542,
+        "frequency": 0.0542,
+        "CP95": [
+          0.049842769717561325,
+          0.05881908325733757
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 1600,
+        "method": "Anytime",
+        "crossings": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 1600,
+        "method": "Finite horizon",
+        "crossings": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 1600,
+        "method": "Summable CG23",
+        "crossings": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 3200,
+        "method": "CG23",
+        "crossings": 595,
+        "frequency": 0.0595,
+        "CP95": [
+          0.05494236762494086,
+          0.06431621083728829
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 3200,
+        "method": "Anytime",
+        "crossings": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 3200,
+        "method": "Finite horizon",
+        "crossings": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 3200,
+        "method": "Summable CG23",
+        "crossings": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 6400,
+        "method": "CG23",
+        "crossings": 664,
+        "frequency": 0.0664,
+        "CP95": [
+          0.06159690210271277,
+          0.07145744898117104
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 6400,
+        "method": "Anytime",
+        "crossings": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 6400,
+        "method": "Finite horizon",
+        "crossings": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 6400,
+        "method": "Summable CG23",
+        "crossings": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 8000,
+        "method": "CG23",
+        "crossings": 680,
+        "frequency": 0.068,
+        "CP95": [
+          0.06314222773470408,
+          0.073111147871845
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 8000,
+        "method": "Anytime",
+        "crossings": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 8000,
+        "method": "Finite horizon",
+        "crossings": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      },
+      {
+        "cap": 8000,
+        "inspected_through": 8000,
+        "method": "Summable CG23",
+        "crossings": 0,
+        "frequency": 0.0,
+        "CP95": [
+          0.0,
+          0.0003688199146187622
+        ]
+      }
+    ],
+    "stopping": [],
+    "replay_matches_archived_data": true,
+    "boundary_updates": 144741,
+    "max_sample_residual": 7.771561172376096e-16,
+    "minimum_absolute_risk_bound_gap": {
+      "CG23": 9.90881121511883e-10,
+      "Anytime": 0.00047057306831114164,
+      "Finite horizon": 0.0008244751256479923,
+      "Summable CG23": 0.001480420876873183
+    },
+    "prefix_comparisons_within_tolerance": {
+      "CG23": 0,
+      "Anytime": 0,
+      "Finite horizon": 0,
+      "Summable CG23": 0
+    },
+    "crossing_tolerance": 1e-12,
+    "elapsed_seconds": 34.10379419599997
+  },
+  "disturbance": [
+    {
+      "scheme": "hull",
+      "cap": 8000,
+      "first_qualified": 2868,
+      "k": 23,
+      "risk": 0.007870386120854889,
+      "certificate": 0.0199973209951788
+    },
+    {
+      "scheme": "box",
+      "cap": 8000,
+      "first_qualified": 1233,
+      "k": 4,
+      "risk": 0.002583776677636207,
+      "certificate": 0.01999680294634997
+    }
+  ],
+  "elapsed_seconds": 42.56731072299999
+}

@@ -1,0 +1,12 @@
+{
+  "paper": {
+    "title": "A Universal Iterated-Logarithm Anytime Law for Data-Driven Control Design",
+    "author": "G. Calafiore"
+  },
+  "text_files_checked": 125,
+  "public_metadata_scope": "Paper title and author; repository-relative file hashes.",
+  "relative_markdown_links_valid": true,
+  "pdf_assets": "Figures only",
+  "latex_assets": "Numerical tables only",
+  "passed": true
+}

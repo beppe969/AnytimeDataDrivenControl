@@ -1,0 +1,66 @@
+{
+  "protocol": {
+    "seed": 26090782,
+    "replicates": 10000,
+    "horizon": 8000,
+    "delta": 0.05,
+    "source": "unchanged QP family"
+  },
+  "coverage": [
+    {
+      "horizon": 800,
+      "method": "CG23",
+      "crossings": 488,
+      "frequency": 0.0488,
+      "CP95": [
+        0.04465919856329064,
+        0.05320602224934482
+      ]
+    },
+    {
+      "horizon": 800,
+      "method": "Anytime",
+      "crossings": 0,
+      "frequency": 0.0,
+      "CP95": [
+        0.0,
+        0.0003688199146187622
+      ]
+    },
+    {
+      "horizon": 8000,
+      "method": "CG23",
+      "crossings": 680,
+      "frequency": 0.068,
+      "CP95": [
+        0.06314222773470408,
+        0.073111147871845
+      ]
+    },
+    {
+      "horizon": 8000,
+      "method": "Anytime",
+      "crossings": 0,
+      "frequency": 0.0,
+      "CP95": [
+        0.0,
+        0.0003688199146187622
+      ]
+    }
+  ],
+  "validation": {
+    "direct_root_checks": 48,
+    "max_difference": 3.4416913763379853e-15,
+    "max_sample_residual": 7.771561172376096e-16,
+    "boundary_updates": 144741
+  },
+  "first_extended_crossing_example": {
+    "replicate": 4,
+    "first_CG23_crossing": 3650,
+    "k": 2,
+    "risk": 0.0024229025488824527,
+    "CG23": 0.0024224758202769934,
+    "anytime": 0.005070961862268041
+  },
+  "elapsed_seconds": 27.935220501999993
+}
