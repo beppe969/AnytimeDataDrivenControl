@@ -117,7 +117,6 @@ For a second comparison or an integrity check:
 ```bash
 python reproduce.py compare --run-dir runs/paper
 python reproduce.py integrity
-python reproduce.py integrity --release
 python -m unittest discover -s tests -v
 ```
 
